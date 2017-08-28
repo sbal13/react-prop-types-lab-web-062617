@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 
 import Product from './components/Product';
 
+
+
+
+
 ReactDOM.render(
   <Product 
     name="Dunder Mifflin" 
@@ -10,5 +14,5 @@ ReactDOM.render(
     color="white" 
     weight={210} 
   />,
-  document.getElementById('root')
+  document.getElementById('global')
 );
